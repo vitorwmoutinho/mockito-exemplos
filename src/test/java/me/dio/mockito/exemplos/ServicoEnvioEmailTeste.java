@@ -32,6 +32,7 @@ public class ServicoEnvioEmailTeste {
 
         Email emailCapturado = emailCaptor.getValue();
         Assertions.assertEquals(Formato.HTML, emailCapturado.getFormato());
+
     }
 
 }
