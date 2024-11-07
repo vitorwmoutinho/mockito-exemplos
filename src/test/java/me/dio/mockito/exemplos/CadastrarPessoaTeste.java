@@ -39,6 +39,7 @@ public class CadastrarPessoaTeste {
         assertEquals(dadosLocalizacao.getBairro(), enderecoJose.getBairro());
         assertEquals(dadosLocalizacao.getCidade(), enderecoJose.getCidade());
         assertEquals(dadosLocalizacao.getUf(), enderecoJose.getUf());
+        assertEquals("Casa", dadosLocalizacao.getComplemento(), enderecoJose.getComplemento());
     }
 
     @Test
